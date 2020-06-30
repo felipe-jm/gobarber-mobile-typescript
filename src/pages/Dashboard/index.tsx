@@ -2,8 +2,10 @@ import React, { useEffect, useCallback, useState } from 'react';
 
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
-import api from 'src/services/api';
+import api from '../../services/api';
 import { useAuth } from '../../hooks/auth';
+
+import { Provider } from '../../interfaces';
 
 import {
   Container,
@@ -21,12 +23,6 @@ import {
   ProviderMeta,
   ProviderMetaText,
 } from './styles';
-
-export interface Provider {
-  id: string;
-  name: string;
-  avatar_url: string;
-}
 
 const Dashboard: React.FC = () => {
   const [providers, setProviders] = useState<Provider[]>([]);
@@ -68,7 +64,13 @@ const Dashboard: React.FC = () => {
         </HeaderTitle>
 
         <ProfileButton onPress={navigateToProfile}>
-          <UserAvatar source={{ uri: user.avatar_url }} />
+          <UserAvatar
+            source={{
+              uri: user.avatar_url
+                ? user.avatar_url
+                : `https://api.adorable.io/avatars/${Math.random() * 100}`,
+            }}
+          />
         </ProfileButton>
       </Header>
 
@@ -82,7 +84,13 @@ const Dashboard: React.FC = () => {
           <ProviderContainer
             onPress={() => navigateToCreateAppointment(provider.id)}
           >
-            <ProviderAvatar source={{ uri: provider.avatar_url }} />
+            <ProviderAvatar
+              source={{
+                uri: provider.avatar_url
+                  ? provider.avatar_url
+                  : `https://api.adorable.io/avatars/${Math.random() * 100}`,
+              }}
+            />
 
             <ProviderInfo>
               <ProviderName>{provider.name}</ProviderName>
