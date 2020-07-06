@@ -8,20 +8,20 @@
   A barber scheduling app that allows users to schedule an appointment with his favorite barber and shows to the barber his agenda for the day.
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipe-jm/gobarber-frontend-typescript">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipe-jm/gobarber-mobile-typescript">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipe-jm/gobarber-frontend-typescript">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipe-jm/gobarber-mobile-typescript">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipe-jm/gobarber-frontend-typescript">
-  <a href="https://github.com/felipe-jm/gobarber-frontend-typescript/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipe-jm/gobarber-frontend-typescript">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipe-jm/gobarber-mobile-typescript">
+  <a href="https://github.com/felipe-jm/gobarber-mobile-typescript/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipe-jm/gobarber-mobile-typescript">
   </a>
 
-  <a href="https://github.com/felipe-jm/gobarber-frontend-typescript/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/felipe-jm/gobarber-frontend-typescript">
+  <a href="https://github.com/felipe-jm/gobarber-mobile-typescript/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/felipe-jm/gobarber-mobile-typescript">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/felipe-jm/gobarber-frontend-typescript">
+  <img alt="GitHub" src="https://img.shields.io/github/license/felipe-jm/gobarber-mobile-typescript">
 </p>
 
 <p align="center">
@@ -71,7 +71,7 @@ $ yarn android
 ```
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/gobarber-api/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/felipe-jm/gobarber-mobile-typescript/blob/master/LICENSE) for more information.
 
 ---
 
